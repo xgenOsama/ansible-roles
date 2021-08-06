@@ -1,0 +1,7 @@
+---
+- name: Copy index file
+  copy:
+    src: ./files/index.html
+    dest: /usr/share/nginx/html
+  notify:
+    - restart nginx

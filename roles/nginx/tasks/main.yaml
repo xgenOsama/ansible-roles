@@ -1,0 +1,3 @@
+---
+- include: install-nginx.yaml
+- include: copy-site.yaml
